@@ -1,0 +1,163 @@
+* {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1120px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-form {
+    min-height: 500px;
+}
+
+.order-form__right-part {
+    width: 100%;
+    background: white;
+    border-radius: 1px;
+}
+
+.order-form__right-part img {
+    width: 100%;
+}
+
+.order-form__left-part {
+    width: 100%;
+    background: white;
+}
+
+.left-part__heading {
+    margin: 0;
+    font-weight: 900;
+    padding-top: 37px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.order-form__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 12px 0;
+    width: 100%;
+    background: #428A60;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.button-name {
+    margin-right: 10px;
+}
+
+form {
+    margin: 0 auto;
+    width: 320px;
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-top: 10px;
+    text-indent: 20px;
+    padding: 16px 0;
+    background: #F8F8F8;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.input-group {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#phone-field {
+    margin-right: 20px;
+    width: 184px;
+}
+
+details {
+
+    padding: 13px 20px;
+    background: #F8F8F8;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#name-field,
+.input-group {
+    width: 320px;
+}
+
+/* details {
+    padding: 16px 20px;
+} */
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary {
+    display: block;
+}
+
+img.small-size {
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+    /* width: 100%;
+    height: auto; */
+}
+
+.big-size {
+    display: none;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px 0 20px;
+}
+
+label {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.colored-text {
+    color: #428A60;
+}
+
+.secure {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+    font-weight: 700;
+}
+
+.secure img {
+    margin: 0 20px;
+}

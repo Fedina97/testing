@@ -1,0 +1,76 @@
+@media screen and (min-width: 900px) {
+    body {
+        background: #E5E5E5;
+    }
+
+    .order-form__right-part {
+        width: 560px;
+        position: relative;
+        height: 500px;
+        background: none;
+        background: url(./img/Mask\ Group.png) center center/ cover no-repeat;
+    }
+
+    .order-form__left-part {
+        width: 50%;
+        height: 500px;
+    }
+
+    .order-form__right-part::before {
+        content: 'ECO';
+        position: absolute;
+        color: white;
+        font-weight: 700;
+        bottom: 40px;
+        left: 40px;
+    }
+
+    .order-form__right-part::after {
+        content: 'Reduslim';
+        position: absolute;
+        color: white;
+        font-weight: 700;
+        top: 40px;
+        left: 40px;
+    }
+
+    .big-size {
+        display: block;
+        width: 100%;
+    }
+
+    img.small-size {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .order-form {
+        display: flex;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .left-part__heading {
+        padding: 29px 128px;
+        background: #F8F8F8;
+        border-radius: 0 30px 0 0;
+    }
+
+    .order-form__right-part {
+        background: #FFFFFF;
+        box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
+        border-radius: 1px;
+    }
+
+    .secure {
+        display: none;
+    }
+
+
+}
